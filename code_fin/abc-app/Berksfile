@@ -1,0 +1,6 @@
+source 'https://supermarket.chef.io'
+
+metadata
+
+cookbook 'apt'
+cookbook 'tarball', git: "https://github.com/ooyala/tarball-chef-cookbook.git"
